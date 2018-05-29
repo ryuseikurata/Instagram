@@ -1,0 +1,1276 @@
+BCSymbolMap Version: 2.0
++[NCMBDateFormat getIso8601DateFormat]
++[NCMBDateFormat getFileNameDateFormat]
++[NCMBDateFormat createDateFormater:]
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBDateFormat.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios
+-[NCMBRichPushView appearWebView:url:]
+___38-[NCMBRichPushView appearWebView:url:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NCMBRichPushView loadRequest:]
+-[NCMBRichPushView resizeWebViewWithNotification:]
+___50-[NCMBRichPushView resizeWebViewWithNotification:]_block_invoke
+___copy_helper_block_.115
+___destroy_helper_block_.116
+-[NCMBRichPushView transformUIVew:]
+-[NCMBRichPushView sizingWebView:]
+-[NCMBRichPushView closeWebView:]
+-[NCMBRichPushView startWebViewLoading]
+-[NCMBRichPushView endWebViewLoading]
+-[NCMBRichPushView webViewDidFinishLoad:]
+-[NCMBRichPushView webView:shouldStartLoadWithRequest:navigationType:]
+-[NCMBRichPushView webView:didFailLoadWithError:]
+-[NCMBRichPushView cv]
+-[NCMBRichPushView setCv:]
+-[NCMBRichPushView uv]
+-[NCMBRichPushView setUv:]
+-[NCMBRichPushView wv]
+-[NCMBRichPushView setWv:]
+-[NCMBRichPushView closeButton]
+-[NCMBRichPushView setCloseButton:]
+-[NCMBRichPushView .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp.117
+_OBJC_IVAR_$_NCMBRichPushView._cv
+_OBJC_IVAR_$_NCMBRichPushView._uv
+_OBJC_IVAR_$_NCMBRichPushView._wv
+_OBJC_IVAR_$_NCMBRichPushView._closeButton
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIWebViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIWebViewDelegate
+l_OBJC_PROTOCOL_$_UIActionSheetDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIActionSheetDelegate
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBRichPush/NCMBRichPushView.m
+CGRectMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__destroy_helper_block_
+__copy_helper_block_
+__50-[NCMBRichPushView resizeWebViewWithNotification:]_block_invoke
+__38-[NCMBRichPushView appearWebView:url:]_block_invoke
++[NCMB setApplicationKey:clientKey:]
++[NCMB getApplicationKey]
++[NCMB getClientKey]
++[NCMB getResponseValidationFlag]
++[NCMB enableResponseValidation:]
++[NCMB createFolder]
++[NCMB saveDirPath:str:]
++[NCMB showConfirmPushNotification]
+___35+[NCMB showConfirmPushNotification]_block_invoke
+_applicationKey
+_clientKey
+_responseValidationFlag
+___block_literal_global
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMB.m
+__35+[NCMB showConfirmPushNotification]_block_invoke
+-[NCMBScript initWithName:method:endpoint:]
++[NCMBScript scriptWithName:method:]
++[NCMBScript scriptWithName:method:endpoint:]
+-[NCMBScript execute:headers:queries:error:]
+-[NCMBScript execute:headers:queries:withBlock:]
+-[NCMBScript service]
+-[NCMBScript setService:]
+-[NCMBScript scriptName]
+-[NCMBScript setScriptName:]
+-[NCMBScript method]
+-[NCMBScript setMethod:]
+-[NCMBScript .cxx_destruct]
+_OBJC_IVAR_$_NCMBScript._service
+_OBJC_IVAR_$_NCMBScript._scriptName
+_OBJC_IVAR_$_NCMBScript._method
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBScript.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBScript.h
+-[NCMBRemoveOperation initWithClassName:]
+-[NCMBRemoveOperation encode]
+-[NCMBRemoveOperation apply:NCMBObject:forkey:]
+-[NCMBRemoveOperation mergeWithPrevious:]
+-[NCMBRemoveOperation objects]
+-[NCMBRemoveOperation setObjects:]
+-[NCMBRemoveOperation .cxx_destruct]
+_OBJC_IVAR_$_NCMBRemoveOperation._objects
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBRemoveOperation.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBRemoveOperation.h
+-[NCMBScriptService init]
+-[NCMBScriptService initWithEndpoint:]
+-[NCMBScriptService executeScript:error:]
+-[NCMBScriptService createUrlFromScriptName:query:]
+-[NCMBScriptService createRequest:method:header:body:]
+-[NCMBScriptService executeScript:method:header:body:query:error:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___66-[NCMBScriptService executeScript:method:header:body:query:error:]_block_invoke
+-[NCMBScriptService executeScript:method:header:body:query:withBlock:]
+___70-[NCMBScriptService executeScript:method:header:body:query:withBlock:]_block_invoke
+___copy_helper_block_.110
+___destroy_helper_block_.111
+-[NCMBScriptService endpoint]
+-[NCMBScriptService setEndpoint:]
+-[NCMBScriptService request]
+-[NCMBScriptService setRequest:]
+-[NCMBScriptService session]
+-[NCMBScriptService setSession:]
+-[NCMBScriptService .cxx_destruct]
+_OBJC_IVAR_$_NCMBScriptService._session
+_OBJC_IVAR_$_NCMBScriptService._endpoint
+_OBJC_IVAR_$_NCMBScriptService._request
+___block_descriptor_tmp.112
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBScriptService/NCMBScriptService.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBScriptService/NCMBScriptService.h
+__70-[NCMBScriptService executeScript:method:header:body:query:withBlock:]_block_invoke
+__66-[NCMBScriptService executeScript:method:header:body:query:error:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
++[NCMBAnonymousUtils isLinkedWithUser:]
++[NCMBAnonymousUtils logIn:]
++[NCMBAnonymousUtils logInWithBlock:]
+___37+[NCMBAnonymousUtils logInWithBlock:]_block_invoke
++[NCMBAnonymousUtils logInWithTarget:selector:]
+___47+[NCMBAnonymousUtils logInWithTarget:selector:]_block_invoke
+___copy_helper_block_.30
+___destroy_helper_block_.31
++[NCMBAnonymousUtils createUUID]
++[NCMBAnonymousUtils createAnonymousUser]
+___block_descriptor_tmp.33
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBAnonymousUtils.m
+__47+[NCMBAnonymousUtils logInWithTarget:selector:]_block_invoke
+__37+[NCMBAnonymousUtils logInWithBlock:]_block_invoke
++[NCMBAnalytics trackAppOpenedWithLaunchOptions:]
++[NCMBAnalytics trackAppOpenedWithRemoteNotificationPayload:]
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBAnalytics.m
+-[NCMBRelationOperation init:newRelationsToRemove:]
+-[NCMBRelationOperation initWithClassName:newRelationsToAdd:newRelationsToRemove:]
+-[NCMBRelationOperation apply:NCMBObject:forkey:]
+-[NCMBRelationOperation mergeWithPrevious:]
+-[NCMBRelationOperation encode]
+-[NCMBRelationOperation convertSetToArray:]
+-[NCMBRelationOperation tagetClass]
+-[NCMBRelationOperation setTagetClass:]
+-[NCMBRelationOperation relationToAdd]
+-[NCMBRelationOperation setRelationToAdd:]
+-[NCMBRelationOperation relationToRemove]
+-[NCMBRelationOperation setRelationToRemove:]
+-[NCMBRelationOperation .cxx_destruct]
+_OBJC_IVAR_$_NCMBRelationOperation._tagetClass
+_OBJC_IVAR_$_NCMBRelationOperation._relationToAdd
+_OBJC_IVAR_$_NCMBRelationOperation._relationToRemove
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBRelationOperation.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBRelationOperation.h
+-[NCMBSetOperation initWithClassName:]
+-[NCMBSetOperation encode]
+-[NCMBSetOperation getValue]
+-[NCMBSetOperation apply:NCMBObject:forkey:]
+-[NCMBSetOperation mergeWithPrevious:]
+-[NCMBSetOperation value]
+-[NCMBSetOperation setValue:]
+-[NCMBSetOperation .cxx_destruct]
+_OBJC_IVAR_$_NCMBSetOperation._value
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBSetOperation.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBSetOperation.h
+-[NCMBAddUniqueOperation initWithClassName:]
+-[NCMBAddUniqueOperation encode]
+-[NCMBAddUniqueOperation apply:NCMBObject:forkey:]
+-[NCMBAddUniqueOperation mergeWithPrevious:]
+-[NCMBAddUniqueOperation objects]
+-[NCMBAddUniqueOperation setObjects:]
+-[NCMBAddUniqueOperation .cxx_destruct]
+_OBJC_IVAR_$_NCMBAddUniqueOperation._objects
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBAddUniqueOperation.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBAddUniqueOperation.h
++[NCMBReachability objForLock]
+-[NCMBReachability init]
++[NCMBReachability sharedInstance]
+-[NCMBReachability reachabilityWithHostName:]
++[NCMBReachability updateFlags:]
+-[NCMBReachability reachabilityChanged]
+___39-[NCMBReachability reachabilityChanged]_block_invoke
+-[NCMBReachability executeCommand:]
+___35-[NCMBReachability executeCommand:]_block_invoke
+___copy_helper_block_.66
+___destroy_helper_block_.67
+-[NCMBReachability startNotifier]
+_ReachabilityCallback
+-[NCMBReachability stopNotifier]
+-[NCMBReachability getCurrentReachabilityStatus]
+-[NCMBReachability isReachableToTarget]
+_ncmbReachability
+__objForLock
+_OBJC_IVAR_$_NCMBReachability.internetReachabilityRef
+_OBJC_IVAR_$_NCMBReachability.reachabilityRef
+_OBJC_IVAR_$_NCMBReachability.reachabilityFlags
+___block_descriptor_tmp.69
+_OBJC_IVAR_$_NCMBReachability.internetReachabilityFlags
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBReachability/NCMBReachability.m
+ReachabilityCallback
+__35-[NCMBReachability executeCommand:]_block_invoke
+__39-[NCMBReachability reachabilityChanged]_block_invoke
+-[NCMBFile refresh:]
+-[NCMBFile refreshInBackgroundWithBlock:]
+-[NCMBFile refreshInBackgroundWithTarget:selector:]
+-[NCMBFile fetch:]
+-[NCMBFile fetchInBackgroundWithBlock:]
+-[NCMBFile fetchInBackgroundWithTarget:selector:]
+-[NCMBFile deleteEventually:]
+-[NCMBFile relationForKey:]
+-[NCMBFile addObject:forKey:]
+-[NCMBFile addObjectsFromArray:forKey:]
+-[NCMBFile addUniqueObject:forKey:]
+-[NCMBFile addUniqueObjectsFromArray:forKey:]
+-[NCMBFile removeObject:forKey:]
+-[NCMBFile removeObjectsFromArray:forKey:]
+-[NCMBFile removeObjectForKey:]
+-[NCMBFile incrementKey:]
+-[NCMBFile incrementKey:byAmount:]
+-[NCMBFile saveEventually:]
++[NCMBFile fileWithName:contentsAtPath:]
++[NCMBFile fileWithData:]
+-[NCMBFile init]
++[NCMBFile fileWithName:data:]
+-[NCMBFile privateSetName:]
+-[NCMBFile privateSetURL:]
+-[NCMBFile privateSetIsDirty:]
+-[NCMBFile saveInBackgroundWithBlock:progressBlock:]
+___52-[NCMBFile saveInBackgroundWithBlock:progressBlock:]_block_invoke
+-[NCMBFile getData:]
+___20-[NCMBFile getData:]_block_invoke
+___copy_helper_block_.60
+___destroy_helper_block_.61
+-[NCMBFile getDataInBackgroundWithTarget:selector:]
+___51-[NCMBFile getDataInBackgroundWithTarget:selector:]_block_invoke
+___copy_helper_block_.81
+___destroy_helper_block_.82
+-[NCMBFile getDataInBackgroundWithBlock:]
+-[NCMBFile getDataInBackgroundWithBlock:progressBlock:]
+___55-[NCMBFile getDataInBackgroundWithBlock:progressBlock:]_block_invoke
+___copy_helper_block_.86
+___destroy_helper_block_.87
++[NCMBFile uniqueTagFromObject]
++[NCMBFile getTimeStamp]
++[NCMBFile getUUID]
+-[NCMBFile createBody:error:]
++[NCMBFile mimeTypeForFileName:]
+-[NCMBFile privateSetNameAndURL:]
+-[NCMBFile cancel]
++[NCMBFile query]
+-[NCMBFile save:]
+___17-[NCMBFile save:]_block_invoke
+___copy_helper_block_.176
+___destroy_helper_block_.177
+-[NCMBFile saveInBackgroundWithBlock:]
+-[NCMBFile delete:]
+-[NCMBFile deleteInBackgroundWithBlock:]
++[NCMBFile object]
++[NCMBFile ncmbClassName]
+-[NCMBFile afterSave:operations:]
+-[NCMBFile afterFetch:isRefresh:]
+-[NCMBFile createRequest:error:]
+-[NCMBFile name]
+-[NCMBFile url]
+-[NCMBFile isDirty]
+-[NCMBFile isDataAvailable]
+-[NCMBFile file]
+-[NCMBFile setFile:]
+-[NCMBFile .cxx_destruct]
+_OBJC_IVAR_$_NCMBFile._name
+_OBJC_IVAR_$_NCMBFile._url
+_OBJC_IVAR_$_NCMBFile._isDirty
+_OBJC_IVAR_$_NCMBFile.session
+_OBJC_IVAR_$_NCMBFile.semaphore
+___block_descriptor_tmp.63
+___block_descriptor_tmp.83
+___block_descriptor_tmp.88
+___block_descriptor_tmp.178
+_OBJC_IVAR_$_NCMBFile._isDataAvailable
+_OBJC_IVAR_$_NCMBFile._file
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBFile.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBFile.h
+__17-[NCMBFile save:]_block_invoke
+__55-[NCMBFile getDataInBackgroundWithBlock:progressBlock:]_block_invoke
+__51-[NCMBFile getDataInBackgroundWithTarget:selector:]_block_invoke
+__20-[NCMBFile getData:]_block_invoke
+__52-[NCMBFile saveInBackgroundWithBlock:progressBlock:]_block_invoke
+-[NCMBUser getLocalData]
++[NCMBUser objectWithClassName:]
+-[NCMBUser init]
++[NCMBUser user]
++[NCMBUser query]
+-[NCMBUser setUserName:]
+-[NCMBUser userName]
+-[NCMBUser setPassword:]
+-[NCMBUser setMailAddress:]
+-[NCMBUser mailAddress]
+-[NCMBUser setSessionToken:]
++[NCMBUser getCurrentSessionToken]
++[NCMBUser enableAutomaticUser]
++[NCMBUser currentUser]
++[NCMBUser automaticCurrentUserWithBlock:]
+___42+[NCMBUser automaticCurrentUserWithBlock:]_block_invoke
++[NCMBUser automaticCurrentUserWithTarget:selector:]
+___52+[NCMBUser automaticCurrentUserWithTarget:selector:]_block_invoke
+-[NCMBUser isAuthenticated]
+-[NCMBUser signUp:]
+-[NCMBUser signUpInBackgroundWithBlock:]
+-[NCMBUser signUpInBackgroundWithTarget:selector:]
+-[NCMBUser signUpWithToken:withType:withBlock:]
+___47-[NCMBUser signUpWithToken:withType:withBlock:]_block_invoke
+___copy_helper_block_.103
+___destroy_helper_block_.104
+-[NCMBUser signUpWithGoogleToken:withBlock:]
+-[NCMBUser signUpWithTwitterToken:withBlock:]
+-[NCMBUser signUpWithFacebookToken:withBlock:]
+-[NCMBUser signUpFromAnonymous:password:error:]
+-[NCMBUser signUpFromAnonymousInBackgroundWithBlock:password:block:]
+___68-[NCMBUser signUpFromAnonymousInBackgroundWithBlock:password:block:]_block_invoke
+___68-[NCMBUser signUpFromAnonymousInBackgroundWithBlock:password:block:]_block_invoke_2
+___68-[NCMBUser signUpFromAnonymousInBackgroundWithBlock:password:block:]_block_invoke_3
+___copy_helper_block_.126
+___destroy_helper_block_.127
+___copy_helper_block_.131
+___destroy_helper_block_.132
+___copy_helper_block_.134
+___destroy_helper_block_.135
+-[NCMBUser signUpFromAnonymousInBackgroundWithTarget:password:target:selector:]
+___79-[NCMBUser signUpFromAnonymousInBackgroundWithTarget:password:target:selector:]_block_invoke
+___copy_helper_block_.138
+___destroy_helper_block_.139
+-[NCMBUser checkAnonymousUser]
+-[NCMBUser setTheDataForUser:userName:password:]
++[NCMBUser requestAuthenticationMail:error:]
++[NCMBUser requestAuthenticationMailInBackground:target:selector:]
++[NCMBUser requestAuthenticationMailInBackground:block:]
++[NCMBUser requestMailFromNCMB:mail:target:selector:]
+___53+[NCMBUser requestMailFromNCMB:mail:target:selector:]_block_invoke
+___copy_helper_block_.175
+___destroy_helper_block_.176
++[NCMBUser requestMailFromNCMB:mail:error:]
+___43+[NCMBUser requestMailFromNCMB:mail:error:]_block_invoke
+___copy_helper_block_.200
+___destroy_helper_block_.201
++[NCMBUser requestMailFromNCMB:mail:block:]
+___43+[NCMBUser requestMailFromNCMB:mail:block:]_block_invoke
+___copy_helper_block_.208
+___destroy_helper_block_.209
++[NCMBUser logInWithUsername:password:error:]
++[NCMBUser logInWithUsernameInBackground:password:target:selector:]
++[NCMBUser logInWithUsernameInBackground:password:block:]
++[NCMBUser logInWithMailAddress:password:error:]
++[NCMBUser logInWithMailAddressInBackground:password:target:selector:]
++[NCMBUser logInWithMailAddressInBackground:password:block:]
++[NCMBUser ncmbLogInInBackground:mailAddress:password:target:selector:]
+___71+[NCMBUser ncmbLogInInBackground:mailAddress:password:target:selector:]_block_invoke
+___copy_helper_block_.217
+___destroy_helper_block_.218
++[NCMBUser createConnectionForLogin:mailAddress:password:]
++[NCMBUser ncmbLogIn:mailAddress:password:error:]
+___49+[NCMBUser ncmbLogIn:mailAddress:password:error:]_block_invoke
+___copy_helper_block_.263
+___destroy_helper_block_.264
++[NCMBUser ncmbLogInInBackground:mailAddress:password:block:]
+___61+[NCMBUser ncmbLogInInBackground:mailAddress:password:block:]_block_invoke
+___copy_helper_block_.266
+___destroy_helper_block_.267
++[NCMBUser responseLogIn:]
++[NCMBUser logOut]
+___18+[NCMBUser logOut]_block_invoke
+___copy_helper_block_.274
+___destroy_helper_block_.275
++[NCMBUser logOutInBackgroundWithBlock:]
+___40+[NCMBUser logOutInBackgroundWithBlock:]_block_invoke
+___copy_helper_block_.279
+___destroy_helper_block_.280
++[NCMBUser logOutEvent]
++[NCMBUser requestPasswordResetForEmail:error:]
++[NCMBUser requestPasswordResetForEmailInBackground:target:selector:]
++[NCMBUser requestPasswordResetForEmailInBackground:block:]
++[NCMBUser getFromFileCurrentUser]
++[NCMBUser saveToFileCurrentUser:]
+-[NCMBUser toJSONObjectForDataFile]
+-[NCMBUser afterDelete]
+-[NCMBUser afterFetch:isRefresh:]
+-[NCMBUser afterSave:operations:]
+-[NCMBUser linkWithToken:withType:withBlock:]
+___45-[NCMBUser linkWithToken:withType:withBlock:]_block_invoke
+___copy_helper_block_.346
+___destroy_helper_block_.347
+-[NCMBUser linkWithGoogleToken:withBlock:]
+-[NCMBUser linkWithTwitterToken:withBlock:]
+-[NCMBUser linkWithFacebookToken:withBlock:]
+-[NCMBUser isLinkedWith:]
+-[NCMBUser unlink:withBlock:]
+___29-[NCMBUser unlink:withBlock:]_block_invoke
+___copy_helper_block_.357
+___destroy_helper_block_.358
+-[NCMBUser isMailAddressConfirm]
+-[NCMBUser password]
+-[NCMBUser isNew]
+-[NCMBUser sessionToken]
+-[NCMBUser .cxx_destruct]
+_currentUser
+_OBJC_IVAR_$_NCMBUser._sessionToken
+_isEnableAutomaticUser
+___block_descriptor_tmp.106
+___block_descriptor_tmp.128
+___block_descriptor_tmp.133
+___block_descriptor_tmp.137
+___block_descriptor_tmp.140
+___block_descriptor_tmp.177
+___block_descriptor_tmp.203
+___block_descriptor_tmp.210
+___block_descriptor_tmp.219
+___block_descriptor_tmp.265
+___block_descriptor_tmp.269
+___block_descriptor_tmp.276
+___block_descriptor_tmp.282
+_OBJC_IVAR_$_NCMBUser._isNew
+___block_descriptor_tmp.348
+___block_descriptor_tmp.359
+_OBJC_IVAR_$_NCMBUser._password
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBUser.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBUser.h
+__29-[NCMBUser unlink:withBlock:]_block_invoke
+__45-[NCMBUser linkWithToken:withType:withBlock:]_block_invoke
+__40+[NCMBUser logOutInBackgroundWithBlock:]_block_invoke
+__18+[NCMBUser logOut]_block_invoke
+__61+[NCMBUser ncmbLogInInBackground:mailAddress:password:block:]_block_invoke
+__49+[NCMBUser ncmbLogIn:mailAddress:password:error:]_block_invoke
+__71+[NCMBUser ncmbLogInInBackground:mailAddress:password:target:selector:]_block_invoke
+__43+[NCMBUser requestMailFromNCMB:mail:block:]_block_invoke
+__43+[NCMBUser requestMailFromNCMB:mail:error:]_block_invoke
+__53+[NCMBUser requestMailFromNCMB:mail:target:selector:]_block_invoke
+__79-[NCMBUser signUpFromAnonymousInBackgroundWithTarget:password:target:selector:]_block_invoke
+__68-[NCMBUser signUpFromAnonymousInBackgroundWithBlock:password:block:]_block_invoke_3
+__68-[NCMBUser signUpFromAnonymousInBackgroundWithBlock:password:block:]_block_invoke_2
+__68-[NCMBUser signUpFromAnonymousInBackgroundWithBlock:password:block:]_block_invoke
+__47-[NCMBUser signUpWithToken:withType:withBlock:]_block_invoke
+__52+[NCMBUser automaticCurrentUserWithTarget:selector:]_block_invoke
+__42+[NCMBUser automaticCurrentUserWithBlock:]_block_invoke
+-[NCMBRelation init]
+-[NCMBRelation initWithClassName:key:]
+-[NCMBRelation initWithClassName:]
+-[NCMBRelation query]
+-[NCMBRelation addObject:]
+-[NCMBRelation removeObject:]
+-[NCMBRelation addDuplicationCheck:]
+-[NCMBRelation removeDuplicationCheck:]
+-[NCMBRelation ensureParentAndKey:key:]
+-[NCMBRelation encodeToJson]
+-[NCMBRelation parent]
+-[NCMBRelation setParent:]
+-[NCMBRelation key]
+-[NCMBRelation setKey:]
+-[NCMBRelation targetClass]
+-[NCMBRelation setTargetClass:]
+-[NCMBRelation .cxx_destruct]
+_OBJC_IVAR_$_NCMBRelation._targetClass
+_OBJC_IVAR_$_NCMBRelation._parent
+_OBJC_IVAR_$_NCMBRelation._key
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBRelation.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBRelation.h
+-[NCMBCloseImageView initWithFrame:]
+-[NCMBCloseImageView drawRect:]
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBRichPush/NCMBCloseImageView.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBError.m
++[NCMBPush query]
++[NCMBPush push]
+-[NCMBPush init]
++[NCMBPush stringWithFormat:arrayArguments:]
++[NCMBPush handlePush:]
+___23+[NCMBPush handlePush:]_block_invoke
++[NCMBPush handleRichPush:]
++[NCMBPush resetRichPushView]
+-[NCMBPush setUserSettingValue:]
+-[NCMBPush setChannel:]
+-[NCMBPush setChannels:]
+-[NCMBPush setPushToAndroid:]
+-[NCMBPush setPushToIOS:]
+-[NCMBPush setDialog:]
+-[NCMBPush setImmediateDeliveryFlag:]
+-[NCMBPush setDeliveryTime:]
+-[NCMBPush setMessage:]
+-[NCMBPush setSearchCondition:]
+-[NCMBPush setRichUrl:]
+-[NCMBPush setTitle:]
+-[NCMBPush setAction:]
+-[NCMBPush setContentAvailable:]
+-[NCMBPush setBadgeIncrementFlag:]
+-[NCMBPush setBadgeNumber:]
+-[NCMBPush setSound:]
+-[NCMBPush setCategory:]
+-[NCMBPush expireAtDate:]
+-[NCMBPush expireAfterTimeInterval:]
+-[NCMBPush clearExpiration]
+-[NCMBPush setData:]
+-[NCMBPush sendPush:]
+-[NCMBPush sendPushInBackgroundWithBlock:]
+-[NCMBPush sendPushInBackgroundWithTarget:selector:]
++[NCMBPush sendPushDataToChannel:withData:error:]
++[NCMBPush sendPushDataToChannelInBackground:withData:block:]
++[NCMBPush sendPushDataToChannelInBackground:withData:target:selector:]
++[NCMBPush sendPushDataToQuery:withData:error:]
++[NCMBPush sendPushDataToQueryInBackground:withData:block:]
++[NCMBPush sendPushMessageToChannel:withMessage:error:]
++[NCMBPush sendPushMessageToChannelInBackground:withMessage:block:]
++[NCMBPush sendPushMessageToChannelInBackground:withMessage:target:selector:]
++[NCMBPush sendPushMessageToQuery:withMessage:error:]
++[NCMBPush sendPushMessageToQueryInBackground:withMessage:block:]
+-[NCMBPush setObject:forKey:]
+-[NCMBPush query]
+-[NCMBPush setQuery:]
+-[NCMBPush .cxx_destruct]
+_OBJC_IVAR_$_NCMBPush._query
+_rv
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBPush.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBPush.h
+__23+[NCMBPush handlePush:]_block_invoke
+-[NCMBRequest initWithURL:method:header:bodyData:]
+-[NCMBRequest initWithURLString:method:header:body:]
++[NCMBRequest returnTimeStamp]
++[NCMBRequest returnSessionToken]
++[NCMBRequest returnEncodedString:]
+-[NCMBRequest returnSignature:method:timestamp:]
++[NCMBRequest encodingSigneture:method:]
+-[NCMBRequest signature]
+-[NCMBRequest setSignature:]
+-[NCMBRequest applicationKey]
+-[NCMBRequest setApplicationKey:]
+-[NCMBRequest clientKey]
+-[NCMBRequest setClientKey:]
+-[NCMBRequest .cxx_destruct]
+_OBJC_IVAR_$_NCMBRequest._signature
+_OBJC_IVAR_$_NCMBRequest._applicationKey
+_OBJC_IVAR_$_NCMBRequest._clientKey
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBRequest/NCMBRequest.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBRequest/NCMBRequest.h
+-[NCMBQuery init]
+-[NCMBQuery initWithClassName:]
++[NCMBQuery queryWithClassName:]
+-[NCMBQuery description]
+-[NCMBQuery setCondition:forKey:operand:]
+-[NCMBQuery whereKey:equalTo:]
+-[NCMBQuery whereKey:notEqualTo:]
+-[NCMBQuery whereKey:greaterThan:]
+-[NCMBQuery whereKey:greaterThanOrEqualTo:]
+-[NCMBQuery whereKey:lessThan:]
+-[NCMBQuery whereKey:lessThanOrEqualTo:]
+-[NCMBQuery whereKey:containedIn:]
+-[NCMBQuery whereKey:notContainedIn:]
+-[NCMBQuery whereKey:containedInArrayTo:]
+-[NCMBQuery whereKey:notContainedInArrayTo:]
+-[NCMBQuery whereKey:containsAllObjectsInArrayTo:]
+-[NCMBQuery whereKey:matchesKey:inQuery:]
+-[NCMBQuery whereKey:matchesQuery:]
+-[NCMBQuery whereKeyExists:]
+-[NCMBQuery whereKeyDoesNotExist:]
+-[NCMBQuery whereKey:nearGeoPoint:]
+-[NCMBQuery whereKey:nearGeoPoint:withinKilometers:]
+-[NCMBQuery whereKey:nearGeoPoint:withinMiles:]
+-[NCMBQuery whereKey:nearGeoPoint:withinRadians:]
+-[NCMBQuery whereKey:withinGeoBoxFromSouthwest:toNortheast:]
++[NCMBQuery orQueryWithSubqueries:]
+-[NCMBQuery relatedTo:objectId:key:]
+-[NCMBQuery includeKey:]
+-[NCMBQuery orderByAscending:]
+-[NCMBQuery addAscendingOrder:]
+-[NCMBQuery orderByDescending:]
+-[NCMBQuery addDescendingOrder:]
+-[NCMBQuery orderBySortDescriptor:]
+-[NCMBQuery orderBySortDescriptors:]
+-[NCMBQuery findObjects:]
+___25-[NCMBQuery findObjects:]_block_invoke
+-[NCMBQuery findObjectsInBackgroundWithBlock:]
+___46-[NCMBQuery findObjectsInBackgroundWithBlock:]_block_invoke
+___copy_helper_block_.151
+___destroy_helper_block_.152
+-[NCMBQuery findObjectsInBackgroundWithTarget:selector:]
+___56-[NCMBQuery findObjectsInBackgroundWithTarget:selector:]_block_invoke
+___copy_helper_block_.177
+___destroy_helper_block_.178
+-[NCMBQuery createRequestForSearch:countEnableFlag:getFirst:]
+-[NCMBQuery getFirstObject:]
+___28-[NCMBQuery getFirstObject:]_block_invoke
+___copy_helper_block_.227
+___destroy_helper_block_.228
+-[NCMBQuery getFirstObjectInBackgroundWithBlock:]
+___49-[NCMBQuery getFirstObjectInBackgroundWithBlock:]_block_invoke
+___copy_helper_block_.230
+___destroy_helper_block_.231
+-[NCMBQuery getFirstObjectInBackgroundWithTarget:selector:]
+___59-[NCMBQuery getFirstObjectInBackgroundWithTarget:selector:]_block_invoke
+___copy_helper_block_.235
+___destroy_helper_block_.236
+-[NCMBQuery countObjects:]
+___26-[NCMBQuery countObjects:]_block_invoke
+___copy_helper_block_.241
+___destroy_helper_block_.242
+-[NCMBQuery countObjectsInBackgroundWithBlock:]
+___47-[NCMBQuery countObjectsInBackgroundWithBlock:]_block_invoke
+___copy_helper_block_.248
+___destroy_helper_block_.249
+-[NCMBQuery countObjectsInBackgroundWithTarget:selector:]
+___57-[NCMBQuery countObjectsInBackgroundWithTarget:selector:]_block_invoke
+___copy_helper_block_.251
+___destroy_helper_block_.252
+-[NCMBQuery getObjectWithId:error:]
+___35-[NCMBQuery getObjectWithId:error:]_block_invoke
+___copy_helper_block_.257
+___destroy_helper_block_.258
+-[NCMBQuery getObjectInBackgroundWithId:block:]
+___47-[NCMBQuery getObjectInBackgroundWithId:block:]_block_invoke
+___copy_helper_block_.262
+___destroy_helper_block_.263
+-[NCMBQuery getObjectInBackgroundWithId:target:selector:]
+___57-[NCMBQuery getObjectInBackgroundWithId:target:selector:]_block_invoke
+___copy_helper_block_.265
+___destroy_helper_block_.266
++[NCMBQuery getObjectOfClass:objectId:error:]
++[NCMBQuery getUserObjectWithId:error:]
+-[NCMBQuery cancel]
+-[NCMBQuery setCachePolicy:]
++[NCMBQuery clearAllCachedResults]
+-[NCMBQuery clearCachedResult]
+-[NCMBQuery hasCachedResult]
+-[NCMBQuery queryToArray:countEnableFlag:getFirstFlag:]
+-[NCMBQuery createNCMBDateFormatter]
+-[NCMBQuery convertToJSONFromNCMBObject:]
+-[NCMBQuery convertToJSONDicFromOperation:]
+-[NCMBQuery convertToNCMBObjectFromJSON:convertKey:]
+-[NCMBQuery getQueryDictionary]
+-[NCMBQuery executeUserCallback:array:error:]
+-[NCMBQuery ncmbClassName]
+-[NCMBQuery setNcmbClassName:]
+-[NCMBQuery limit]
+-[NCMBQuery setLimit:]
+-[NCMBQuery skip]
+-[NCMBQuery setSkip:]
+-[NCMBQuery includeKey]
+-[NCMBQuery setIncludeKey:]
+-[NCMBQuery query]
+-[NCMBQuery setQuery:]
+-[NCMBQuery orderFieldsAry]
+-[NCMBQuery setOrderFieldsAry:]
+-[NCMBQuery session]
+-[NCMBQuery setSession:]
+-[NCMBQuery cachePolicy]
+-[NCMBQuery .cxx_destruct]
+_OBJC_IVAR_$_NCMBQuery._query
+_OBJC_IVAR_$_NCMBQuery._orderFieldsAry
+_OBJC_IVAR_$_NCMBQuery._includeKey
+_OBJC_IVAR_$_NCMBQuery._cachePolicy
+_OBJC_IVAR_$_NCMBQuery._ncmbClassName
+_OBJC_IVAR_$_NCMBQuery.semaphore
+_OBJC_IVAR_$_NCMBQuery._session
+___block_descriptor_tmp.154
+___block_descriptor_tmp.180
+___block_descriptor_tmp.229
+___block_descriptor_tmp.232
+___block_descriptor_tmp.238
+___block_descriptor_tmp.243
+___block_descriptor_tmp.250
+___block_descriptor_tmp.254
+___block_descriptor_tmp.259
+___block_descriptor_tmp.264
+___block_descriptor_tmp.267
+_OBJC_IVAR_$_NCMBQuery._limit
+_OBJC_IVAR_$_NCMBQuery._skip
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBQuery.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBQuery.h
+__57-[NCMBQuery getObjectInBackgroundWithId:target:selector:]_block_invoke
+__47-[NCMBQuery getObjectInBackgroundWithId:block:]_block_invoke
+__35-[NCMBQuery getObjectWithId:error:]_block_invoke
+__57-[NCMBQuery countObjectsInBackgroundWithTarget:selector:]_block_invoke
+__47-[NCMBQuery countObjectsInBackgroundWithBlock:]_block_invoke
+__26-[NCMBQuery countObjects:]_block_invoke
+__59-[NCMBQuery getFirstObjectInBackgroundWithTarget:selector:]_block_invoke
+__49-[NCMBQuery getFirstObjectInBackgroundWithBlock:]_block_invoke
+__28-[NCMBQuery getFirstObject:]_block_invoke
+__56-[NCMBQuery findObjectsInBackgroundWithTarget:selector:]_block_invoke
+__46-[NCMBQuery findObjectsInBackgroundWithBlock:]_block_invoke
+__25-[NCMBQuery findObjects:]_block_invoke
++[NCMBGeoPoint geoPoint]
++[NCMBGeoPoint geoPointWithLatitude:longitude:]
++[NCMBGeoPoint geoPointWithLocation:]
++[NCMBGeoPoint geoPointForCurrentLocationInBackground:]
+-[NCMBGeoPoint locationManager:didUpdateToLocation:fromLocation:]
+-[NCMBGeoPoint locationManager:didUpdateLocations:]
+-[NCMBGeoPoint locationManager:didFailWithError:]
+-[NCMBGeoPoint latitude]
+-[NCMBGeoPoint setLatitude:]
+-[NCMBGeoPoint longitude]
+-[NCMBGeoPoint setLongitude:]
+_currentPoint
+_handler
+_locationManager
+_OBJC_IVAR_$_NCMBGeoPoint._latitude
+_OBJC_IVAR_$_NCMBGeoPoint._longitude
+l_OBJC_PROTOCOL_$_CLLocationManagerDelegate
+l_OBJC_LABEL_PROTOCOL_$_CLLocationManagerDelegate
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBGeoPoint.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBGeoPoint.h
+-[NCMBIncrementOperation initWithClassName:]
+-[NCMBIncrementOperation encode]
+-[NCMBIncrementOperation apply:NCMBObject:forkey:]
+-[NCMBIncrementOperation mergeWithPrevious:]
+-[NCMBIncrementOperation amount]
+-[NCMBIncrementOperation setAmount:]
+-[NCMBIncrementOperation .cxx_destruct]
+_OBJC_IVAR_$_NCMBIncrementOperation._amount
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBIncrementOperation.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBIncrementOperation.h
++[NCMBInstallation query]
+-[NCMBInstallation setDeviceTokenFromData:]
+-[NCMBInstallation getLocalData]
+-[NCMBInstallation init]
++[NCMBInstallation installation]
++[NCMBInstallation currentInstallation]
+-[NCMBInstallation setDeviceToken:]
+-[NCMBInstallation setChannels:]
+-[NCMBInstallation setBadge:]
+-[NCMBInstallation deviceToken]
+-[NCMBInstallation channels]
+-[NCMBInstallation badge]
+-[NCMBInstallation afterFetch:isRefresh:]
+-[NCMBInstallation afterDelete]
+-[NCMBInstallation afterSave:operations:]
+-[NCMBInstallation saveInstallationToFile]
+-[NCMBInstallation deviceType]
+-[NCMBInstallation timeZone]
+-[NCMBInstallation .cxx_destruct]
+_OBJC_IVAR_$_NCMBInstallation._deviceType
+_OBJC_IVAR_$_NCMBInstallation._timeZone
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBInstallation.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBInstallation.h
+-[NCMBURLSession initWithProgress:progress:]
+-[NCMBURLSession initWithRequestSync:]
+-[NCMBURLSession initWithRequestAsync:]
+-[NCMBURLSession initWithRequest:cachePolicy:]
+-[NCMBURLSession dataAsyncConnectionWithBlock:]
+-[NCMBURLSession fileDownloadAsyncConnectionWithBlock:]
+-[NCMBURLSession fileUploadAsyncConnectionWithBlock:]
+-[NCMBURLSession convertResponse:response:error:]
+-[NCMBURLSession convertResponseToDic:error:]
+-[NCMBURLSession convertErrorFromJSON:response:error:]
+-[NCMBURLSession checkE401001Error:]
+-[NCMBURLSession signatureCheck:contentsData:error:]
+-[NCMBURLSession URLSession:dataTask:didReceiveData:]
+-[NCMBURLSession URLSession:task:didCompleteWithError:]
+-[NCMBURLSession URLSession:task:didReceiveChallenge:completionHandler:]
+-[NCMBURLSession URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+-[NCMBURLSession URLSession:task:needNewBodyStream:]
+-[NCMBURLSession URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[NCMBURLSession URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]
+-[NCMBURLSession URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]
+-[NCMBURLSession URLSession:downloadTask:didFinishDownloadingToURL:]
+-[NCMBURLSession request]
+-[NCMBURLSession setRequest:]
+-[NCMBURLSession config]
+-[NCMBURLSession setConfig:]
+-[NCMBURLSession session]
+-[NCMBURLSession setSession:]
+-[NCMBURLSession dataTask]
+-[NCMBURLSession setDataTask:]
+-[NCMBURLSession uploadTask]
+-[NCMBURLSession setUploadTask:]
+-[NCMBURLSession downloadTask]
+-[NCMBURLSession setDownloadTask:]
+-[NCMBURLSession responseData]
+-[NCMBURLSession setResponseData:]
+-[NCMBURLSession block]
+-[NCMBURLSession setBlock:]
+-[NCMBURLSession blockProgress]
+-[NCMBURLSession setBlockProgress:]
+-[NCMBURLSession .cxx_destruct]
+_OBJC_IVAR_$_NCMBURLSession._request
+_OBJC_IVAR_$_NCMBURLSession._config
+_OBJC_IVAR_$_NCMBURLSession._session
+_OBJC_IVAR_$_NCMBURLSession._dataTask
+_OBJC_IVAR_$_NCMBURLSession._uploadTask
+_OBJC_IVAR_$_NCMBURLSession._downloadTask
+_OBJC_IVAR_$_NCMBURLSession._responseData
+_OBJC_IVAR_$_NCMBURLSession._block
+_OBJC_IVAR_$_NCMBURLSession._blockProgress
+l_OBJC_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBURLSession/NCMBURLSession.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBURLSession/NCMBURLSession.h
++[NCMBObject object]
++[NCMBObject objectWithoutDataWithObjectId:]
++[NCMBObject query]
++[NCMBObject registerSubclass]
+_dynamicGetterInt
+_dynamicSetterInt
+_dynamicGetterFloat
+_dynamicSetterFloat
+_dynamicGetterBOOL
+_dynamicSetterBOOL
+_dynamicGetterDouble
+_dynamicSetterDouble
+_dynamicGetterLong
+_dynamicSetterLong
+_dynamicGetterShort
+_dynamicSetterShort
+_dynamicGetterLongLong
+_dynamicSetterLongLong
+_dynamicGetterRelation
+_dynamicSetter
+_dynamicGetter
+-[NCMBObject init]
+-[NCMBObject initWithClassName:]
++[NCMBObject objectWithClassName:]
+-[NCMBObject initWithData:]
++[NCMBObject objectWithClassName:data:]
++[NCMBObject objectWithClassName:objectId:]
+-[NCMBObject description]
+-[NCMBObject getLocalData]
+-[NCMBObject isValidType:]
+-[NCMBObject listIsValidType:]
+-[NCMBObject setACL:]
+-[NCMBObject setObject:forKey:]
+-[NCMBObject objectForKey:]
+-[NCMBObject incrementKey:]
+-[NCMBObject incrementKey:byAmount:]
+-[NCMBObject addObject:forKey:]
+-[NCMBObject addObjectsFromArray:forKey:]
+-[NCMBObject addUniqueObject:forKey:]
+-[NCMBObject addUniqueObjectsFromArray:forKey:]
+-[NCMBObject removeObject:forKey:]
+-[NCMBObject removeObjectsInArray:forKey:]
+-[NCMBObject removeObjectForKey:]
+-[NCMBObject relationforKey:]
+-[NCMBObject performOperation:byOperation:]
+-[NCMBObject currentOperations]
+-[NCMBObject beforeConnection]
+-[NCMBObject afterSave:operations:]
++[NCMBObject afterSaveAll:operation:response:]
+-[NCMBObject mergePreviousOperation:]
+-[NCMBObject allKeys]
+-[NCMBObject refresh:]
+-[NCMBObject refreshInBackgroundWithBlock:]
+-[NCMBObject refreshInBackgroundWithTarget:selector:]
+___53-[NCMBObject refreshInBackgroundWithTarget:selector:]_block_invoke
+-[NCMBObject fetch:error:isRefresh:]
+___36-[NCMBObject fetch:error:isRefresh:]_block_invoke
+___copy_helper_block_.269
+___destroy_helper_block_.270
+-[NCMBObject fetch:]
+-[NCMBObject fetchInBackgroundWithBlock:block:isRefresh:]
+___57-[NCMBObject fetchInBackgroundWithBlock:block:isRefresh:]_block_invoke
+-[NCMBObject fetchInBackgroundWithBlock:]
+-[NCMBObject fetchInBackgroundWithTarget:selector:]
+___51-[NCMBObject fetchInBackgroundWithTarget:selector:]_block_invoke
+___copy_helper_block_.282
+___destroy_helper_block_.283
+-[NCMBObject propertiesFromResponse:]
+-[NCMBObject afterFetch:isRefresh:]
+-[NCMBObject savePointerObjectBeforehand:error:]
+-[NCMBObject save:error:]
+___25-[NCMBObject save:error:]_block_invoke
+___copy_helper_block_.305
+___destroy_helper_block_.306
+-[NCMBObject save:]
+-[NCMBObject saveInBackgroundWithBlock:block:]
+___46-[NCMBObject saveInBackgroundWithBlock:block:]_block_invoke
+___copy_helper_block_.310
+___destroy_helper_block_.311
+-[NCMBObject saveInBackgroundWithBlock:]
+-[NCMBObject saveInBackgroundWithTarget:selector:]
+___50-[NCMBObject saveInBackgroundWithTarget:selector:]_block_invoke
+___copy_helper_block_.321
+___destroy_helper_block_.322
+-[NCMBObject createRequestForSave:operation:error:]
+-[NCMBObject returnRequestDictionaryForSaveAll:operation:]
+-[NCMBObject returnRequestUrlForBatchAPI:objectId:]
+-[NCMBObject saveEventually:]
+___29-[NCMBObject saveEventually:]_block_invoke
+___copy_helper_block_.353
+___destroy_helper_block_.354
+___29-[NCMBObject saveEventually:]_block_invoke.357
+___copy_helper_block_.362
+___destroy_helper_block_.363
+-[NCMBObject saveCommandToFile:error:]
+-[NCMBObject returnBaseUrl:objectId:]
+-[NCMBObject delete:error:]
+___27-[NCMBObject delete:error:]_block_invoke
+___copy_helper_block_.412
+___destroy_helper_block_.413
+-[NCMBObject delete:]
+-[NCMBObject deleteInBackgroundWithBlock:block:]
+___48-[NCMBObject deleteInBackgroundWithBlock:block:]_block_invoke
+___copy_helper_block_.418
+___destroy_helper_block_.419
+-[NCMBObject deleteInBackgroundWithBlock:]
+-[NCMBObject deleteInBackgroundWithTarget:selector:]
+___52-[NCMBObject deleteInBackgroundWithTarget:selector:]_block_invoke
+___copy_helper_block_.423
+___destroy_helper_block_.424
+-[NCMBObject deleteEventually:]
+___31-[NCMBObject deleteEventually:]_block_invoke
+___copy_helper_block_.428
+___destroy_helper_block_.429
+___31-[NCMBObject deleteEventually:]_block_invoke.432
+___copy_helper_block_.433
+___destroy_helper_block_.434
+-[NCMBObject afterDelete]
+-[NCMBObject convertToJSONDicFromOperation:]
+-[NCMBObject convertToNCMBObjectFromJSON:convertKey:]
+-[NCMBObject createNCMBDateFormatter]
+-[NCMBObject convertToJSONFromNCMBObject:]
++[NCMBObject convertClass:ncmbClassName:]
+-[NCMBObject executeUserCallback:error:]
+-[NCMBObject objectId]
+-[NCMBObject setObjectId:]
+-[NCMBObject updateDate]
+-[NCMBObject createDate]
+-[NCMBObject ACL]
+-[NCMBObject ncmbClassName]
+-[NCMBObject .cxx_destruct]
+_OBJC_IVAR_$_NCMBObject._ncmbClassName
+_OBJC_IVAR_$_NCMBObject._ACL
+_OBJC_IVAR_$_NCMBObject._createDate
+_OBJC_IVAR_$_NCMBObject._updateDate
+_OBJC_IVAR_$_NCMBObject._objectId
+_OBJC_IVAR_$_NCMBObject.semaphore
+___block_descriptor_tmp.272
+___block_descriptor_tmp.281
+___block_descriptor_tmp.284
+___block_descriptor_tmp.307
+___block_descriptor_tmp.312
+___block_descriptor_tmp.323
+___block_descriptor_tmp.355
+___block_descriptor_tmp.365
+___block_descriptor_tmp.415
+___block_descriptor_tmp.420
+___block_descriptor_tmp.425
+___block_descriptor_tmp.430
+___block_descriptor_tmp.435
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBObject.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBObject.h
+__31-[NCMBObject deleteEventually:]_block_invoke.432
+__31-[NCMBObject deleteEventually:]_block_invoke
+__52-[NCMBObject deleteInBackgroundWithTarget:selector:]_block_invoke
+__48-[NCMBObject deleteInBackgroundWithBlock:block:]_block_invoke
+__27-[NCMBObject delete:error:]_block_invoke
+__29-[NCMBObject saveEventually:]_block_invoke.357
+__29-[NCMBObject saveEventually:]_block_invoke
+__50-[NCMBObject saveInBackgroundWithTarget:selector:]_block_invoke
+__46-[NCMBObject saveInBackgroundWithBlock:block:]_block_invoke
+__25-[NCMBObject save:error:]_block_invoke
+__51-[NCMBObject fetchInBackgroundWithTarget:selector:]_block_invoke
+__57-[NCMBObject fetchInBackgroundWithBlock:block:isRefresh:]_block_invoke
+__36-[NCMBObject fetch:error:isRefresh:]_block_invoke
+__53-[NCMBObject refreshInBackgroundWithTarget:selector:]_block_invoke
+dynamicGetter
+dynamicSetter
+dynamicGetterRelation
+dynamicSetterLongLong
+dynamicGetterLongLong
+dynamicSetterShort
+dynamicGetterShort
+dynamicSetterLong
+dynamicGetterLong
+dynamicSetterDouble
+dynamicGetterDouble
+dynamicSetterBOOL
+dynamicGetterBOOL
+dynamicSetterFloat
+dynamicGetterFloat
+dynamicSetterInt
+dynamicGetterInt
+-[SubClassHandler className:]
+-[SubClassHandler setSubClassName:ncmbClassName:]
+-[SubClassHandler init]
++[SubClassHandler sharedInstance]
+-[SubClassHandler dicSubclass]
+-[SubClassHandler setDicSubclass:]
+-[SubClassHandler .cxx_destruct]
+_subClassHandler
+_OBJC_IVAR_$_SubClassHandler._dicSubclass
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/SubClassHandler/SubClassHandler.m
+-[NCMBDeleteOperation encode]
+-[NCMBDeleteOperation getValue]
+-[NCMBDeleteOperation apply:NCMBObject:forkey:]
+-[NCMBDeleteOperation mergeWithPrevious:]
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBDeleteOperation.m
++[NSDataBase64Encode stringEncodedWithBase64:]
+_s_cBase64Tbl
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NSDataBase64Encode/NSDataBase64Encode.m
+-[NCMBRole getLocalData]
+-[NCMBRole init]
+-[NCMBRole initWithRoleName:]
++[NCMBRole roleWithName:]
+-[NCMBRole addUser:]
+-[NCMBRole addRole:]
+-[NCMBRole relationForRole]
+-[NCMBRole relationForUser]
+-[NCMBRole afterFetch:isRefresh:]
+-[NCMBRole afterDelete]
++[NCMBRole query]
+-[NCMBRole roleName]
+-[NCMBRole users]
+-[NCMBRole setUsers:]
+-[NCMBRole roles]
+-[NCMBRole setRoles:]
+-[NCMBRole .cxx_destruct]
+_OBJC_IVAR_$_NCMBRole._roleName
+_OBJC_IVAR_$_NCMBRole._roles
+_OBJC_IVAR_$_NCMBRole._users
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBRole.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBRole.h
+-[NCMBAddOperation initWithClassName:]
+-[NCMBAddOperation encode]
+-[NCMBAddOperation apply:NCMBObject:forkey:]
+-[NCMBAddOperation mergeWithPrevious:]
+-[NCMBAddOperation objects]
+-[NCMBAddOperation setObjects:]
+-[NCMBAddOperation .cxx_destruct]
+_OBJC_IVAR_$_NCMBAddOperation._objects
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBAddOperation.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/Operations/NCMBAddOperation.h
+-[NCMBACL init]
++[NCMBACL ACL]
++[NCMBACL ACLWithUser:]
++[NCMBACL setDefaultACL:withAccessForCurrentUser:]
+-[NCMBACL setPublicReadAccess:]
+-[NCMBACL isPublicReadAccess]
+-[NCMBACL setPublicWriteAccess:]
+-[NCMBACL isPublicWriteAccess]
+-[NCMBACL isReadAccessForRoleWithName:]
+-[NCMBACL setReadAccess:forRoleWithName:]
+-[NCMBACL isWriteAccessForRoleWithName:]
+-[NCMBACL setWriteAccess:forRoleWithName:]
+-[NCMBACL isReadAccessForRole:]
+-[NCMBACL setReadAccess:forRole:]
+-[NCMBACL isWriteAccessForRole:]
+-[NCMBACL setWriteAccess:forRole:]
+-[NCMBACL setReadAccess:forUserId:]
+-[NCMBACL isReadAccessForUserId:]
+-[NCMBACL setWriteAccess:forUserId:]
+-[NCMBACL isWriteAccessForUserId:]
+-[NCMBACL setReadAccess:forUser:]
+-[NCMBACL isReadAccessForUser:]
+-[NCMBACL setWriteAccess:forUser:]
+-[NCMBACL isWriteAccessForUser:]
+-[NCMBACL dicACL]
+-[NCMBACL setDicACL:]
+-[NCMBACL isDirty]
+-[NCMBACL .cxx_destruct]
+_OBJC_IVAR_$_NCMBACL._dicACL
+_OBJC_IVAR_$_NCMBACL._isDirty
+_defaultACL
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBACL.m
+/Users/kurataryusei/Documents/InstaAppli/Carthage/Checkouts/ncmb_ios/NCMB/NCMBACL.h
+/Users/kurataryusei/Library/Caches/org.carthage.CarthageKit/DerivedData/9.3.1_9E501/ncmb_ios/v2.4.3/Build/Intermediates.noindex/ArchiveIntermediates/NCMB/IntermediateBuildFilesPath/NCMB.build/Release-iphoneos/NCMB.build/DerivedSources/NCMB_vers.c
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=351.8 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

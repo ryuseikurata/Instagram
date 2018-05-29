@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "v2.4.3",
+  "iOS" : [
+    {
+      "name" : "NCMB",
+      "hash" : "34ab85618e7a6277405809fd3c2ab9f0ec7efbbdc394338212f20a0ded190695"
+    }
+  ]
+}
